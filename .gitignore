@@ -1,0 +1,53 @@
+/*
+!/.gitignore
+!/AGENTS.md
+!/build_zenka_vm.bat
+!/apps/
+!/apps/zenka-launcher/
+!/apps/zenka-launcher/**
+!/.opencode/
+!/.opencode/**
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+dist/
+expo-env.d.ts
+
+# Native build artifacts
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+android/build/
+android/captures/
+android/local.properties
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Build output
+*.apk
+*.aab
+*.ap_
+apps/zenka-launcher/build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
